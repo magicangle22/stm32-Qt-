@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\appqt.dir/objects.a
+D:\Qt\Tools\llvm-mingw1706_64\bin\llvm-ar.exe qc CMakeFiles\appqt.dir/objects.a @CMakeFiles\appqt.dir\objects1.rsp
+D:\Qt\Tools\llvm-mingw1706_64\bin\c++.exe -O3 -DNDEBUG -mwindows -Wl,--whole-archive CMakeFiles\appqt.dir/objects.a -Wl,--no-whole-archive -o appqt.exe -Wl,--out-implib,libappqt.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\appqt.dir\linkLibs.rsp

@@ -1,0 +1,4 @@
+D:/stm32project/mywork/qt/build/CMakeFiles/appqt.dir
+D:/stm32project/mywork/qt/build/CMakeFiles/edit_cache.dir
+D:/stm32project/mywork/qt/build/CMakeFiles/rebuild_cache.dir
+D:/stm32project/mywork/qt/build/CMakeFiles/appqt_autogen.dir

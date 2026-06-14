@@ -1,0 +1,5 @@
+D:/stm32project/mywork/qt/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/CMakeFiles/appqt.dir
+D:/stm32project/mywork/qt/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/CMakeFiles/edit_cache.dir
+D:/stm32project/mywork/qt/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/stm32project/mywork/qt/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/CMakeFiles/appqt_autogen_timestamp_deps.dir
+D:/stm32project/mywork/qt/build/Desktop_Qt_6_11_0_llvm_mingw_64_bit-Debug/CMakeFiles/appqt_autogen.dir
