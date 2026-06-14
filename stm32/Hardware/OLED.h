@@ -1,6 +1,8 @@
 #ifndef __OLED_H
 #define __OLED_H
 
+/* HW I2C2: PB8=SCL, PB9=SDA | DMA1_Ch6 for image transfer */
+
 void OLED_Init(void);
 void OLED_Clear(void);
 void OLED_ShowChar(uint8_t Line, uint8_t Column, char Char);

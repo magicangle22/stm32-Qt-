@@ -1,4 +1,4 @@
-﻿#include "stm32f10x.h"
+#include "stm32f10x.h"
 #include "Delay.h"
 #include "OLED.h"
 #include "Serial.h"
@@ -12,9 +12,7 @@ int main(void)
 	Key_Init();
 	Serial_Init();
 	
-	OLED_ShowString(1,1,"TxPacket");
-	OLED_ShowString(3,1,"RxPacket");
-	OLED_ShowString(2,1,"Key1:SendImg");
+	OLED_ShowString(2,1,"Key1:SendImg2");
 	
 	Serial_TxPacket[0] = 0x01;
 	Serial_TxPacket[1] = 0x02;
@@ -49,7 +47,6 @@ int main(void)
 		}
 		if(Serial_GetImageRxFlag() == 1)
 		{
-			OLED_Clear();
 			OLED_ShowImage(Serial_ImageRxBuffer);
 		}
 	}

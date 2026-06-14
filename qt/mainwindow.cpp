@@ -52,7 +52,10 @@ void MainWindow::setupUi()
     m_baudCombo->addItem("38400", 38400);
     m_baudCombo->addItem("57600", 57600);
     m_baudCombo->addItem("115200", 115200);
-    m_baudCombo->setCurrentIndex(4);
+    m_baudCombo->addItem("230400", 230400);
+    m_baudCombo->addItem("460800", 460800);
+    m_baudCombo->addItem("921600", 921600);
+    m_baudCombo->setCurrentIndex(7);
     portLayout->addWidget(m_baudCombo);
     portLayout->addStretch();
     mainLayout->addLayout(portLayout);
@@ -86,8 +89,8 @@ void MainWindow::setupUi()
     procLayout->addSpacing(20);
     procLayout->addWidget(new QLabel("FPS:"));
     m_fpsSpin = new QSpinBox();
-    m_fpsSpin->setRange(1, 30);
-    m_fpsSpin->setValue(5);
+    m_fpsSpin->setRange(1, 60);
+    m_fpsSpin->setValue(30);
     m_fpsSpin->setSuffix(" fps");
     m_fpsSpin->setFixedWidth(80);
     procLayout->addWidget(m_fpsSpin);
